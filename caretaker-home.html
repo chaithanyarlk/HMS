@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hostel Management System</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!--Lobster-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!--Roboto-->
+  <link href="caretaker-home.css" rel="stylesheet"> <!--Layout.css-->
+  <script src = "caretaker-home.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top" id="topnav">
+        <span style="cursor: pointer;" onclick="openNav()"><span class="fa fa-bars" style="font-size: 4vh;color: aliceblue;" ></span></span>
+        <div class="justify-content-center">
+            <span style="color:darkorange; font-family: 'Lobster', cursive;" id="title">Hostel Management System</span>
+        </div>
+
+        <div>
+            <span><i class="fa fa-user-circle-o" style="font-size:4vh;color:aliceblue"></i></span>
+        </div>
+    </nav>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a style="cursor: pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><span><i class="fa fa-list"></i></span> &nbsp;&nbsp; Attendance</a>
+        <a href="#"><span><i class="fa fa-map-marker" ></i></span> &nbsp;&nbsp; Outing Requests</a>
+        <a href="#"><span><i class="fa fa-commenting"></i></span> &nbsp;&nbsp; Register Complaint</a>
+        <a href="#"><span><i class="fa fa-pencil-square-o"></i></span> &nbsp;&nbsp; Edit Profile</a>
+    </div>
+
+    <br> <br> <br> <br>
+    <div class="container" style="border: 1.5px solid #a1a1a1; border-radius: 15px; padding: 30px;">
+        <div class="row">
+            <div class="col-md cclass" >
+                <div class="card" id="present">
+                    <span class="atticon"><i class="fa fa-user-plus"></i></span>
+                    <span class="attnum">306</span>
+                    <span class="atttext">Number of inmates present.</span>
+                </div>
+            </div>
+            <div class="col-md cclass">
+                <div class="card" id="absent">
+                    <span class="atticon"><i class="fa fa-user-times"></i></span>
+                    <span class="attnum">23</span>
+                    <span class="atttext">Number of inmates absent.</span>
+                </div>
+            </div>
+            <div class="col-md cclass">
+                <div class="card" id="comps">
+                    <span class="atticon"><i class="fa fa-font-awesome" ></i></span>
+                    <span class="attnum">28</span>
+                    <span class="atttext">Number of complaints received.</span></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
