@@ -31,7 +31,8 @@
 
     <div id="mySidenav" class="sidenav">
         <a style="cursor: pointer;" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#"><span><i class="fa fa-list"></i></span> &nbsp;&nbsp; Attendance</a>
+        <a href="caretaker-home.html"><span><i class="fa fa-tachometer"></i></span> &nbsp;&nbsp; Dashboard</a>
+        <a href="attendance.html"><span><i class="fa fa-list"></i></span> &nbsp;&nbsp; Attendance</a>
         <a href="#"><span><i class="fa fa-map-marker" ></i></span> &nbsp;&nbsp; Outing Requests</a>
         <a href="#"><span><i class="fa fa-commenting"></i></span> &nbsp;&nbsp; Register Complaint</a>
         <a href="#"><span><i class="fa fa-pencil-square-o"></i></span> &nbsp;&nbsp; Edit Profile</a>
@@ -39,6 +40,9 @@
 
     <br> <br> <br> <br>
     <div class="container" style="border: 1.5px solid #a1a1a1; border-radius: 15px; padding: 30px;">
+
+        <p style="text-align: center; font-size: large;">Hello <b>Manikanta</b>, caretaker of block <b>2S-A</b>!</p>
+
         <div class="row">
             <div class="col-md cclass" >
                 <div class="card" id="present">
@@ -48,11 +52,14 @@
                 </div>
             </div>
             <div class="col-md cclass">
-                <div class="card" id="absent">
-                    <span class="atticon"><i class="fa fa-user-times"></i></span>
-                    <span class="attnum">23</span>
-                    <span class="atttext">Number of inmates absent.</span>
-                </div>
+                <a href="#abstable" class="card-link">
+                    <div class="card" id="absent">
+                        <span class="atticon"><i class="fa fa-user-times"></i></span>
+                        <span class="attnum">23</span>
+                        <span class="atttext">Number of inmates absent.</span>
+                    </div>
+                </a>    
+                    
             </div>
             <div class="col-md cclass">
                 <div class="card" id="comps">
@@ -61,6 +68,90 @@
                     <span class="atttext">Number of complaints received.</span></div>
             </div>
         </div>
+
+        <br>
+
+        <div class="table1-container" style="padding: 20px; ">
+            <h2>List of Absentees</h2>
+            <table class="table table-hover table-dark table-striped" id="abstable">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Name</th>
+                        <th>Year</th>
+                        <th>Branch</th>
+                        <th>Block</th>
+                        <th>Room No.</th>
+                        <th>On Outing?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4101</td>
+                        <td>Robert deNiro</td>
+                        <td>4</td>
+                        <td>CSE</td>
+                        <td>4A</td>
+                        <td>G-10</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td>4105</td>
+                        <td>Al Pacino</td>
+                        <td>4</td>
+                        <td>CE</td>
+                        <td>4A</td>
+                        <td>G-12</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td>1124</td>
+                        <td>Robert Downey Jr.</td>
+                        <td>1</td>
+                        <td>EEE</td>
+                        <td>1B</td>
+                        <td>G-1</td>
+                        <td>No</td>
+                    </tr>
+
+                    <tr>
+                        <td>1167</td>
+                        <td>Chris Evans</td>
+                        <td>1</td>
+                        <td>Mech</td>
+                        <td>1A</td>
+                        <td>G-24</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td>2101</td>
+                        <td>Brad Pitt</td>
+                        <td>2</td>
+                        <td>CSE</td>
+                        <td>2A</td>
+                        <td>G-17</td>
+                        <td>Yes</td>
+                    </tr>
+
+                    <tr>
+                        <td>3156</td>
+                        <td>Leonardo deCaprio</td>
+                        <td>3</td>
+                        <td>Chem</td>
+                        <td>3A</td>
+                        <td>G-23</td>
+                        <td>No</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+
+
     </div>
 
 

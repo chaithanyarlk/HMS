@@ -43,6 +43,7 @@ body{
 
 .container {
     background-color: rgba(221, 221, 221, 0.5);
+    margin-bottom: 30px;
 }
 
 .cclass {
