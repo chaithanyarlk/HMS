@@ -96,3 +96,9 @@ body{
     text-align: center;
     font-size: 3em;
 }
+
+@media (max-width: 768px){
+    .table1-container {
+        overflow-x: scroll;
+    }
+}
