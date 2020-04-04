@@ -1,0 +1,136 @@
+body{
+     font-family: 'Roboto', sans-serif;
+     background-color:#F9FAFB;
+ 
+ }
+ #topnav {
+     background-color: #7f5a83;
+     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+     box-shadow: 0 8px 6px -6px rgb(37, 34, 68);
+ }
+ #title{
+     font-size:x-large;
+ }
+ 
+ .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #100f18;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+     box-shadow: 8px 8px 6px -6px rgb(37, 34, 68);
+     background: rgb(22,32,49);
+     background: linear-gradient(90deg, rgba(22,32,49,1) 0%, rgba(22,32,49,1) 81%, rgba(31,46,71,1) 100%);
+ }
+ 
+ .sidenav a {
+     padding: 8px 8px 30px 32px;
+     text-decoration: none;
+     font-size: 1.3em;
+     color: #a1a1a1;
+     display: block;
+     transition: 0.3s;
+ }
+ 
+ .sidenav a:hover {
+     color: #b766ec;
+ }
+ .container{
+     height: 100%;
+     padding-top: 75px;
+     align-content: center;
+     justify-content: center;
+ 
+     }
+     
+     .card{
+     height: auto;
+     margin-top: auto;
+     margin-bottom: auto;
+     width: 400px;
+     background-color:white !important;
+     
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+     }
+     
+     
+     
+     .card-header h3{
+     color:goldenrod;
+     }
+     
+     .socialicon{
+     position: absolute;
+     right: 20px;
+     top: -45px;
+     }
+     
+     .input-group-prepend span{
+     width: 50px;
+     background-color: #FFC312;
+     color: black;
+     border:0 !important;
+     }
+     
+     input:focus{
+     outline: 0 0 0 0  !important;
+     box-shadow: 0 0 0 0 !important;
+     
+     }
+     
+     .check{
+     color: white;
+     }
+     
+     .check input
+     {
+     width: 20px;
+     height: 20px;
+     margin-left: 15px;
+     margin-right: 5px;
+     }
+     
+     .sign-btn{
+         justify-content: center;
+         padding-right: 25px;
+         margin: 20px;
+     
+     }
+     .sign_btn{
+     color: black;
+     background-color: #FFC312;
+     width: 100px;
+     }
+     
+     .sign_btn:hover{
+     color: black;
+     background-color: #0074D9 ;
+     }
+     
+     .links{
+     color: white;
+     }
+     .links:hover{
+          color:greenyellow;
+     }
+     
+     .links a{
+     margin-left: 4px;
+     }
+
+label{
+    color:black;
+    font-weight: 100; 
+}
+.form-control:focus {
+     border-color: #0074D9;
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(0,116,217, 0.5);
+ }
+ .btn-space{
+     padding-right: 25px;
+ }
